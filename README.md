@@ -27,3 +27,25 @@ Learning records for building a large language model from scratch
 
 - [x] Implementing self-attention with trainable weights
 
+- [x] Hiding feature words with causal attention
+
+- [x] Multi-head attention
+
+ - **Section 3**:
+
+- [x] Activations and layer normalization
+
+- [x] Adding shortcut connections
+
+- [x] Build a Transformer block
+
+- [x] Coding the GPT model
+
+- [x] Generating text
+
+ - **Section 4**:
+
+- [x] Evaluating generative text model
+
+- [] Training an LLM
+
