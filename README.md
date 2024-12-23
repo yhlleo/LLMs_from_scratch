@@ -5,9 +5,9 @@ Learning records for building a large language model from scratch
 
  - **Section 1**:
 
-[x] Understanding word embeddings
+- [x] (Understanding word embeddings)
 
-[x] Tokenizing text
+- [x] (Tokenizing text)
 
 [x] Converting tokens into token IDs
 
