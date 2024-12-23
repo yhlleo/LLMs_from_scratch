@@ -47,5 +47,5 @@ Learning records for building a large language model from scratch
 
 - [x] Evaluating generative text model
 
-- [] Training an LLM
+- [ ] Training an LLM
 
