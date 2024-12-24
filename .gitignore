@@ -1,3 +1,4 @@
 .DS_Store
 *.pyc
 *.pth
+.ipynb_checkpoints*
