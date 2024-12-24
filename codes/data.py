@@ -3,6 +3,8 @@ from torch.utils.data import Dataset, DataLoader
 
 import tiktoken
 
+from configs import GPT_CONFIG_124M
+
 class GPTDatasetV2(Dataset):
     def __init__(self, text, tokenizer, max_length, stride):
         self.input_ids  = []
@@ -43,3 +45,31 @@ def create_dataloader_v1(
     )
 
     return dataloader
+
+
+def build_dataloader():
+    with open("../the-verdict.txt", "r", encoding="utf-8") as fin:
+        raw_data = fin.read()
+
+    train_ratio = 0.9
+    split_idx = int(train_ratio * len(raw_data))
+    train_data = raw_data[:split_idx]
+    val_data = raw_data[split_idx:]
+
+    train_loader = create_dataloader_v1(
+        train_data,
+        batch_size=2,
+        max_length=GPT_CONFIG_124M['context_length'],
+        stride=GPT_CONFIG_124M['context_length'],
+        drop_last=True
+    )
+
+    val_loader = create_dataloader_v1(
+        val_data,
+        batch_size=2,
+        max_length=GPT_CONFIG_124M['context_length'],
+        stride=GPT_CONFIG_124M['context_length'],
+        drop_last=False,
+        shuffle=False
+    )
+    return train_loader, val_loader
