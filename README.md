@@ -49,5 +49,5 @@ Learning records for building a large language model from scratch
 
 - [x] Training an LLM
 
-
+![](./train_plot.png)
 
