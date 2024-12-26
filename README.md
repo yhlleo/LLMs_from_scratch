@@ -3,7 +3,7 @@ Learning records for building a large language model from scratch
 
 ### Records
 
- - **Section 1**:
+ - **Section 2**:
 
 - [x] Understanding word embeddings
 
@@ -21,7 +21,7 @@ Learning records for building a large language model from scratch
 
 - [x] Encoding word positions
 
- - **Section 2**:
+ - **Section 3**:
 
 - [x] Capturing data dependencies with attention mechanisms
 
@@ -31,7 +31,7 @@ Learning records for building a large language model from scratch
 
 - [x] Multi-head attention
 
- - **Section 3**:
+ - **Section 4**:
 
 - [x] Activations and layer normalization
 
@@ -43,7 +43,7 @@ Learning records for building a large language model from scratch
 
 - [x] Generating text
 
- - **Section 4**:
+ - **Section 5**:
 
 - [x] Evaluating generative text model
 
@@ -53,13 +53,23 @@ Learning records for building a large language model from scratch
 
 - [x] Greedy search and Top-k sampling
 
-- [ ] Load pretrained weights from OpenAI
+- [x] Load pretrained weights from OpenAI
 
- - **Section 5**:
+ - **Section 6**:
 
 - [x] Prepare spam email dataset and dataloader
 
-- [ ] Fine-tune the model on supervised data
+- [x] Fine-tune the model on supervised data
+
+- [x] Use the LLM as a spam classifier
+
+ - **Section 7:**
+
+- [x] Prepare a dataset for supervised instruction fine-tuning
+
+- [x] Organize data into training batches
+
+- [ ] Finetune the LLM on instruction data
 
 
 
