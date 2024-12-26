@@ -51,3 +51,15 @@ Learning records for building a large language model from scratch
 
 ![](./train_plot.png)
 
+- [x] Greedy search and Top-k sampling
+
+- [ ] Load pretrained weights from OpenAI
+
+ - **Section 5**:
+
+- [x] Prepare spam email dataset and dataloader
+
+- [ ] Fine-tune the model on supervised data
+
+
+
