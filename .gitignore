@@ -2,3 +2,5 @@
 *.pyc
 *.pth
 .ipynb_checkpoints/
+#*.csv
+gpt2/
