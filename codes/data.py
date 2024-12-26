@@ -3,7 +3,7 @@ from torch.utils.data import Dataset, DataLoader
 
 import tiktoken
 
-from configs import GPT_CONFIG_124M
+from codes.configs import GPT_CONFIG_124M
 
 class GPTDatasetV2(Dataset):
     def __init__(self, text, tokenizer, max_length, stride):

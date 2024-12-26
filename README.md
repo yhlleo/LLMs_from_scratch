@@ -49,7 +49,7 @@ Learning records for building a large language model from scratch
 
 - [x] Training an LLM
 
-![](./train_plot.png)
+![](ch05/train_plot.png)
 
 - [x] Greedy search and Top-k sampling
 
