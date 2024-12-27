@@ -1,6 +1,12 @@
 # LLMs_from_scratch
 Learning records for building a large language model from scratch
 
+- Book: [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch?utm_source=raschka&utm_medium=affiliate&utm_campaign=book_raschka_build_12_12_23&a_aid=raschka&a_bid=4c2437a0&chan=mm_github)
+- Github repo: [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
+
+
+I implemented the codes in the fantastic book. All the codes are run with a Macbook Pro (2020 version). Thus, I can use only two kind of devices: `cpu` and `mps`. Perhaps, the Macbook is a little old that is equipped with M1 chip. The training speed of the`mps` mode is even slower than the `cpu` mode.
+
 ### Records
 
  - **Section 2**:
@@ -13,7 +19,7 @@ Learning records for building a large language model from scratch
 
 - [x] Adding special context tokens
 
-- [x] Byte pair encoding (TODO: more details)
+- [x] Byte pair encoding
 
 - [x] Data sampling with a sliding window
 
@@ -55,6 +61,15 @@ Learning records for building a large language model from scratch
 
 - [x] Load pretrained weights from OpenAI
 
+PS: When I download the source model data from OpenAI, the downloading procedure is always frequently broken. Therefore, I tried multiple times and finally collect both the `small` and `media` models. These models are uploaded to Baidu Cloud for your convenience.
+
+
+|Model Size|OpenAI Sources|Converted (Pytorch version)|
+|:-----:|:-----:|:-----:|
+|`small`|[Baidu Cloud](https://pan.baidu.com/s/1BMpqgnkceMsNYGqOzNybxA?pwd=d3wu) (psw: d3wu)| [Baidu Cloud](https://pan.baidu.com/s/1_oL4DSRfWg6wBmSJ6vDISA?pwd=r4hq) (psw: r4hq)|
+|`media`|[Baidu Cloud](https://pan.baidu.com/s/1Ih1A0UQPUsAOdwT0eoGmhw?pwd=qqqj) (psw: qqqj) | [Baidu Cloud](https://pan.baidu.com/s/1n_2WndBnEviIhO3X6MShCg?pwd=8whr) (psw: 8whr)|
+
+
  - **Section 6**:
 
 - [x] Prepare spam email dataset and dataloader
@@ -69,7 +84,7 @@ Learning records for building a large language model from scratch
 
 - [x] Organize data into training batches
 
-- [ ] Finetune the LLM on instruction data
+- [x] Finetune the LLM on instruction data
 
 
 

@@ -1,11 +1,11 @@
 import torch
 import tiktoken
 
-from gpt_model import GPTModel
-from data import build_dataloader
-from losses import calc_loss_batch, evaluate_model
-from utils import generate_and_print_sample
-from configs import GPT_CONFIG_124M
+from .gpt_model import GPTModel
+from .data import build_dataloader
+from .losses import calc_loss_batch, evaluate_model
+from .utils import generate_and_print_sample
+from .configs import GPT_CONFIG_124M
 
 import matplotlib.pyplot as plt
 from matplotlib.ticker import MaxNLocator
