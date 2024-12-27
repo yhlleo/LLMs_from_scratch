@@ -61,7 +61,7 @@ I implemented the codes in the fantastic book. All the codes are run with a Macb
 
 - [x] Load pretrained weights from OpenAI
 
-PS: When I download the source model data from OpenAI, the downloading procedure is always frequently broken. Therefore, I tried multiple times and finally collect both the `small` and `media` models. These models are uploaded to Baidu Cloud for your convenience.
+**PS**: When I download the source model data from OpenAI, the downloading procedure is always frequently broken. Therefore, I tried multiple times and finally collect both the `small` and `media` models. These models are uploaded to Baidu Cloud for your convenience.
 
 
 |Model Size|OpenAI Sources|Converted (Pytorch version)|
@@ -86,5 +86,5 @@ PS: When I download the source model data from OpenAI, the downloading procedure
 
 - [x] Finetune the LLM on instruction data
 
-
+**PS**: It is challenging for me to train with `gpt2-media (355M)` model. Thefore, I still use the light-weight `gpt2-small (124M)`. So, it is no superise that the predictions of the finetuned model perform bad.
 
