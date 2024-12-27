@@ -48,7 +48,7 @@ def create_dataloader_v1(
 
 
 def build_dataloader():
-    with open("../the-verdict.txt", "r", encoding="utf-8") as fin:
+    with open("./ch02/the-verdict.txt", "r", encoding="utf-8") as fin:
         raw_data = fin.read()
 
     train_ratio = 0.9

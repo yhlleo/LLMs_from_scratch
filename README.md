@@ -4,7 +4,6 @@ Learning records for building a large language model from scratch
 - Book: [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch?utm_source=raschka&utm_medium=affiliate&utm_campaign=book_raschka_build_12_12_23&a_aid=raschka&a_bid=4c2437a0&chan=mm_github)
 - Github repo: [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
 
-
 I implemented the codes in the fantastic book. All the codes are run with a Macbook Pro (2020 version). Thus, I can use only two types of devices: `cpu` and `mps`. Perhaps, the Macbook is a little old that is equipped with M1 chip. The training speed of the`mps` mode is even slower than the `cpu` mode.
 
 ### Records
@@ -54,6 +53,10 @@ I implemented the codes in the fantastic book. All the codes are run with a Macb
 - [x] Evaluating generative text model
 
 - [x] Training an LLM
+
+```
+$ python train_llms_from_scratch.py
+```
 
 ![](ch05/train_plot.png)
 
