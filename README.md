@@ -8,7 +8,7 @@ I implemented the codes in the fantastic book. All the codes are run with a Macb
 
 ### Records
 
- - **Section 2**:
+ - **Chapter 2**:
 
 - [x] Understanding word embeddings
 
@@ -26,7 +26,7 @@ I implemented the codes in the fantastic book. All the codes are run with a Macb
 
 - [x] Encoding word positions
 
- - **Section 3**:
+ - **Chapter 3**:
 
 - [x] Capturing data dependencies with attention mechanisms
 
@@ -36,7 +36,7 @@ I implemented the codes in the fantastic book. All the codes are run with a Macb
 
 - [x] Multi-head attention
 
- - **Section 4**:
+ - **Chapter 4**:
 
 - [x] Activations and layer normalization
 
@@ -48,7 +48,7 @@ I implemented the codes in the fantastic book. All the codes are run with a Macb
 
 - [x] Generating text
 
- - **Section 5**:
+ - **Chapter 5**:
 
 - [x] Evaluating generative text model
 
@@ -73,7 +73,7 @@ $ python train_llms_from_scratch.py
 |`media`|[Baidu Cloud](https://pan.baidu.com/s/1Ih1A0UQPUsAOdwT0eoGmhw?pwd=qqqj) (psw: qqqj) | [Baidu Cloud](https://pan.baidu.com/s/1n_2WndBnEviIhO3X6MShCg?pwd=8whr) (psw: 8whr)|
 
 
- - **Section 6**:
+ - **Chapter 6**:
 
 - [x] Prepare spam email dataset and dataloader
 
@@ -81,7 +81,7 @@ $ python train_llms_from_scratch.py
 
 - [x] Use the LLM as a spam classifier
 
- - **Section 7:**
+ - **Chapter 7:**
 
 - [x] Prepare a dataset for supervised instruction fine-tuning
 
