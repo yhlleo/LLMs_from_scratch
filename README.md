@@ -5,7 +5,7 @@ Learning records for building a large language model from scratch
 - Github repo: [rasbt/LLMs-from-scratch](https://github.com/rasbt/LLMs-from-scratch)
 
 
-I implemented the codes in the fantastic book. All the codes are run with a Macbook Pro (2020 version). Thus, I can use only two kind of devices: `cpu` and `mps`. Perhaps, the Macbook is a little old that is equipped with M1 chip. The training speed of the`mps` mode is even slower than the `cpu` mode.
+I implemented the codes in the fantastic book. All the codes are run with a Macbook Pro (2020 version). Thus, I can use only two types of devices: `cpu` and `mps`. Perhaps, the Macbook is a little old that is equipped with M1 chip. The training speed of the`mps` mode is even slower than the `cpu` mode.
 
 ### Records
 
