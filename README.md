@@ -73,6 +73,8 @@ $ python train_llms_from_scratch.py
 |`small`|[Baidu Cloud](https://pan.baidu.com/s/1BMpqgnkceMsNYGqOzNybxA?pwd=d3wu) (psw: d3wu)| [Baidu Cloud](https://pan.baidu.com/s/1_oL4DSRfWg6wBmSJ6vDISA?pwd=r4hq) (psw: r4hq)|
 |`media`|[Baidu Cloud](https://pan.baidu.com/s/1Ih1A0UQPUsAOdwT0eoGmhw?pwd=qqqj) (psw: qqqj) | [Baidu Cloud](https://pan.baidu.com/s/1n_2WndBnEviIhO3X6MShCg?pwd=8whr) (psw: 8whr)|
 
+ - [x] [Convert GPT to Llama2](./ch05/gpt-to-llama2.ipynb) (Finished: RMSNorm, SiLU, SwiGLU; TODO: RoPE and TransformerBlock) 
+
 
  - **Chapter 6**:
 
