@@ -75,6 +75,8 @@ $ python train_llms_from_scratch.py
 
  - [x] [Convert GPT to Llama2](./ch05/gpt-to-llama2.ipynb) (Finished: RMSNorm, SiLU, SwiGLU; TODO: RoPE and TransformerBlock) 
 
+ - [ ] Convert GPT to Llama3
+
 
  - **Chapter 6**:
 
@@ -93,4 +95,6 @@ $ python train_llms_from_scratch.py
 - [x] Finetune the LLM on instruction data
 
 **PS**: It is challenging for me to train with `gpt2-media (355M)` model. Thefore, I still use the light-weight `gpt2-small (124M)`. So, it is no superise that the predictions of the finetuned model perform bad.
+
+ - [ ] Preference tuning with DPO 
 
